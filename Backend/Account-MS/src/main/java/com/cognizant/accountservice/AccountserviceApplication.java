@@ -35,12 +35,12 @@ public class AccountserviceApplication {
 	 * Adding Swaggar2 REST API Documentation bean
 	 */
 	@Bean
-	public Docket swaggerConfiguration() {
-
-		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.cognizant.accountservice.controller")).build().apiInfo(apiInfo());
- 
-	}
+//	public Docket swaggerConfiguration() {
+//
+//		return new Docket(DocumentationType.SWAGGER_2).select()
+//				.apis(RequestHandlerSelectors.basePackage("com.cognizant.accountservice.controller")).build().apiInfo(apiInfo());
+// 
+//	}
 
 	
 	private ApiInfo apiInfo() {
